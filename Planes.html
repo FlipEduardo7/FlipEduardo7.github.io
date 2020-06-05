@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Diseño web tipo blog - para practica</title>
+
+    <script src="https://kit.fontawesome.com/41bcea2ae3.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/principal.css">
+    <link rel="stylesheet" href="css/articulos.css">
+
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
+</head>
+
+<body>
+
+    <!--Header - menu-->
+    <header>
+
+        <div class="header-content">
+
+            <div class="logo">
+                <h1>FEEL<b>GYM</b></h1>
+            </div>
+
+            <div class="menu" id="show-menu">
+
+                <nav>
+                    <ul>
+                        <li><a href="#"> <i class="fas fa-home"></i> Inicio</a></li>
+                        <li><a href="#"> <i class="fab fa-youtube"> </i>Tutoriales</a></li>
+                        <li class="menu-selected"><a href="blog.html" class="text-menu-selected">
+                                <i class="fas fa-file-alt"></i>Blog</a></li>
+                        <li><a href="#"> <i class="fas fa-headset"></i> Contacto</a></li>
+                    </ul>
+                </nav>
+
+            </div>
+
+        </div>
+
+        <div id="icon-menu">
+            <i class="fas fa-bars"></i>
+        </div>
+
+    </header>
+
+    <!--Portada-->
+
+    <div class="container-all" id="move-content">
+
+
+        <div class="article-container-cover">
+            <div class="container-info-cover">
+                <h1>Miembros</h1>
+                <p>Conoce todos nuestros miembros, elige y visita al de tu preferencia</p>
+            </div>
+        </div>
+<div class="container-post">
+
+        <input type="radio" id="TODOS" name="categories" value="TODOS" checked>
+        <input type="radio" id="HTML" name="categories" value="HTML">
+        <input type="radio" id="CSS" name="categories" value="CSS">
+        <input type="radio" id="JS" name="categories" value="JS">
+        <input type="radio" id="PHP" name="categories" value="PHP">
+        <input type="radio" id="NODEJS" name="categories" value="NODEJS">
+        <input type="radio" id="VUE" name="categories" value="VUE">
+
+        <div class="container-category">
+            <label for="TODOS">Miembros</label>
+            <label for="HTML">Planes</label>
+            <label for="CSS">Horarios</label>
+            <label for="JS">Instalaciones</label>
+            <label for="PHP">Tienda</label>
+            <label for="NODEJS">Instructores</label>
+            <label for="VUE">Membresias</label>
+        </div>
+
+        <div class="posts">
+
+            <div class="post" data-category="CSS">
+
+                <div class="ctn-img">
+                    <img src="img/articulos/pagina-web-tipo-blog.jpg" alt="">
+                </div>
+                <h2>Conoce todos nuestros miembros, elige y visita al de tu preferencia</h2>
+                <span>26 febrero 2020 - 1:32 am</span>
+                <ul class="ctn-tag">
+                    <li>Sport-Center Gym</li>
+                    <li>Golden-Gym</li>
+                </ul>
+                <a href="articulo.html"><button>Conocelos</button></a>
+
+            </div>
+
+            <div class="post" data-category="HTML">
+
+                <div class="ctn-img"><img src="img/articulos/Slider-comparacion-imagenes-js.jpg" alt=""></div>
+                <h2>Elige, Conoce algunos de los mejores planes que hemos adecuado para ti</h2>
+                <span>26 febrero 2020 - 1:32 am</span>
+                <ul class="ctn-tag">
+                    <li>Red-Plan</li>
+                    <li>Yellow-Plan</li>
+                </ul>
+                <a href="#"><button>Elige el tuyo</button></a>
+
+            </div>
+
+            <div class="post" data-category="JS">
+
+                <div class="ctn-img"><img src="img/articulos/efecto-hover-avanzado-css.jpg" alt=""></div>
+                <h2>Tenemos los mejores horarios Ven y ¡Visitanos!  </h2>
+                <span>26 febrero 2020 - 1:32 am</span>
+                <ul class="ctn-tag">
+                    <li>5:00AM - 10:00</li>
+                    <li>6:00AM - 10:30</li>
+                </ul>
+                <a href="#"><button>Leer mas</button></a>
+
+            </div>
+
+            <div class="post" data-category="JS NODEJS VUE">
+
+                <div class="ctn-img"><img src="img/articulos/integrando-redes-sociales-WhatsApp-Messenger.jpg" alt=""></div>
+                <h2>Solo los mejores estan aqui¡WOW!😍 Conocelos, ven y asombrate con las mejores instalaciones </h2>
+                <span>26 febrero 2020 - 1:32 am</span>
+                <ul class="ctn-tag">
+                    <li>Golden-Gym</li>
+                    <li>Sport-Center</li>
+                    <li>Maximus-Gym</li>
+                </ul>
+                <a href="#"><button>Conocelas</button></a>
+
+            </div>
+
+            <div class="post" data-category="CSS">
+
+                <div class="ctn-img"><img src="img/articulos/Indicador-de-scroll.jpg" alt=""></div>
+                <h2>Adquiere un sin numero de articulos deportivos, solo los mejores suplementos escogidos para ti</h2>
+                <span>26 febrero 2020 - 1:32 am</span>
+                <ul class="ctn-tag">
+                    <li>Maximizate-store</li>
+                </ul>
+                <a href="#"><button>Compra ya</button></a>
+
+            </div>
+
+            <div class="post" data-category="PHP">
+
+                <div class="ctn-img"><img src="img/articulos/modo-oscuro-para-tu-web.jpg" alt=""></div>
+                <h2>Contamos con los mejores instructores, conocelos y elige al tuyo... </h2>
+                <span>26 febrero 2020 - 1:32 am</span>
+                <ul class="ctn-tag">
+                    <li>Ramon Garcia Ayala</li>
+                    <li>Antony Gibran Romero</li>
+                </ul>
+                <a href="#"><button>Conocelos</button></a>
+
+            </div>
+
+            <div class="post" data-category="CSS NODEJS">
+
+                <div class="ctn-img"><img src="img/articulos/popup-puro-css.jpg" alt=""></div>
+                <h2>Estas listo? Elige tu membresia ahora y disfruta de distintos descuentos...</h2>
+                <span>26 febrero 2020 - 1:32 am</span>
+                <ul class="ctn-tag">
+                    <li>Rpyal</li>
+                    <li>All-Access</li>
+                </ul>
+                <a href="#"><button>leer más</button></a>
+
+            </div>
+
+            <div class="post" data-category="CSS NODEJS">
+
+                <div class="ctn-img"><img src="img/articulos/popup-puro-css.jpg" alt=""></div>
+                <h2>Administradores</h2>
+                <span>Las mejores Herramientas, En un solo sitio</span>
+                <ul class="ctn-tag">
+                    <li>Registro de Compras</li>
+                    <li>Inventario</li>
+                    <li>Asociados</li>
+                    <li>Membresias</li>
+                </ul>
+                <a href="#"><button>Inicia Sesion</button></a>
+
+            </div>
+
+        </div>
+
+    </div>
+        <div class="mapa">
+            <center><iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1885.309242438006!2d-102.3587043!3d19.080504599999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8431e1637f32dae1%3A0xaa631b793d3bf2e9!2sTitan&#39;s%20Gym!5e0!3m2!1ses!2smx!4v1587573861809!5m2!1ses!2smx"
+                    width="800" height="500" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+                    tabindex="0"></iframe></center>
+        </div>
+
+        <div class="cont">
+            <div class="carrusel">
+                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img class="d-block w-100" src="./Img/img.jpg" alt="First slide">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Titan's Gym</h5>
+                                <p>Desde $250</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="./Img/img2.jpg" alt="Second slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="./Img/h2.png" alt="Third slide">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+            <!--titulo-->
+            <div class="titulo">
+                <br>
+                <h1>Telefono: 453 150 3014<br>
+                    <h1>Horario: Lunes a Viernes de 7:00-22:30<br>
+                        <h1>Ramos Arizpe 91, Miguel Hidalgo, 60670 <br>
+                            <h1>Apatzingán de la Constitución, Mich.<br>
+                                <h1>$250 POR MES<br>
+            </div>
+        </div>
+            <br>
+
+            <div class="container-footer">
+
+                <footer>
+
+
+                    <div class="redes-footer">
+                        <a href="#"><i class="fab fa-facebook-f icon-redes-footer"></i></a>
+                        <a href="#"><i class="fab fa-google-plus-g icon-redes-footer"></i></a>
+                        <a href="#"><i class="fab fa-instagram icon-redes-footer"></i></a>
+                    </div>
+
+                    <hr>
+                    <h4>© 2020 FEELGYM - Todos los Derechos Reservados</h4>
+
+                </footer>
+
+            </div>
+
+        </div>
+
+        <script src="js/script.js"></script>
+        <!--Scripts para el carrusel-->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+            crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            crossorigin="anonymous"></script>
+</body>
+
+</html>
