@@ -1,12 +1,11 @@
+
 /*Portada*/
-
-
 .article-container-cover{
     width: 100%;
     height: 500px;
     position: relative;
     margin-top: 80px;
-    background-image: url(../img/SportsCenter1.jpg);
+    background-image: url(../img/fondo.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -16,7 +15,6 @@
     content: '';
     width: 100%;
     height: 100%;
-    background: rgba(255, 1, 1, 0.39);
     position: absolute;
     top: 0;
     left: 0;
@@ -35,20 +33,7 @@
     z-index: 1;
 }
 
-.container-info-cover h1{
-    font-size: 60px;
-    font-weight: 500;
-    color: #fff;
-    margin-bottom: 20px;
-}
-
-.container-info-cover p{
-    color: #fff;
-    font-size: 20px;
-    font-weight: 300;
-}
-
-/*Contenedor - contenido del articulo*/
+/*contenido del articulo*/
 
 .container-content{
     width: 1200px;
@@ -132,46 +117,6 @@ article img{
     border-radius: 6px;
 }
 
-.mapa{
-    padding-top: 25px;
-    position: relative;
-    display: block;
-    margin: 0 auto;
-}
-
-.titulo{
-    float: left;
-}
-
-.carrusel{
-    color: black;
-    padding: 1.5rem;
-    border-width: .2rem;
-    width: 750px;
-    height: 400px;
-    float: left;
-    padding-left: 90px;
-}
-.carrusel img{
-    width: 750px;
-    height: 400px;
-}
-
-.titulo{
-    color: white;
-    float: left;
-}
-.cont{
-    padding-bottom: 460px;
-    justify-content: center;
-}
-
-.comentarios-disqus{
-    width: 95%;
-    margin: auto;
-}
-
-
 .container-aside aside button:hover{
     opacity: 0.9;
 }
@@ -182,6 +127,8 @@ article img{
         max-width: 1000px;
         padding: 0 20px;
     }
+
+
 }
 
 @media screen and (max-width: 1020px){
@@ -205,19 +152,16 @@ article img{
         margin: 10px;
     }
 
-    .titulo{
-        color: white;
-        text-align: center;
-        justify-items: center;
-        width: 100%;
-    }
-
 }
 
 @media screen and (max-width: 800px){
 
     .container-aside{
         flex-wrap: wrap;
+    }
+
+    #icon-menu{
+        right: 20px;
     }
 
 }
